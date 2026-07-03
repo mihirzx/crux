@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "crux",
     "ios": {
       "supportsTablet": true
     },
@@ -26,6 +27,10 @@
         "projectId": "251c39d7-4d76-47b3-991b-a23fb82e21b4"
       }
     },
-    "owner": "mihirzx"
+    "owner": "mihirzx",
+    "plugins": [
+      "expo-router",
+      "expo-web-browser"
+    ]
   }
 }
