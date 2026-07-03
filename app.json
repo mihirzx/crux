@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "climbing-app",
-    "slug": "climbing-app",
+    "slug": "crux",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +20,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "251c39d7-4d76-47b3-991b-a23fb82e21b4"
+      }
+    },
+    "owner": "mihirzx"
   }
 }
